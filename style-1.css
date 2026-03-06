@@ -1,3 +1,29 @@
 body {
   background-color: #dfecff;
 }
+
+.header{
+  font-size: 30px;font-family: "Barlow Semi Condensed Light";
+  margin: auto;
+  text-align: center;
+}
+
+#headerBlock{
+  width: 75%;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin: auto;
+
+  /*outline-color: black;
+  outline-width: 1px;
+  outline-style: solid;*/
+
+  background: linear-gradient(to bottom, royalblue, slategray );
+
+}
+
+.par{
+  color: black;
+
+}
