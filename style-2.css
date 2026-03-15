@@ -67,7 +67,31 @@ body {
   letter-spacing: 2px;
   color: /*#7a2b8f*/ whitesmoke;
   opacity: 0.8;
-
-
 }
+
+
+
+@media (max-width: 375px) {
+
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  #headerBlock{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .header{
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+  }
+
+  .section{
+    min-height: auto;
+    padding: 30px 15px;
+    justify-content: center !important;
+  }
 

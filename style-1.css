@@ -120,5 +120,56 @@ body {
   padding-right: 5%;
 }
 
+@media (max-width: 375px) {
+
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  #headerBlock{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .header{
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+  }
+
+  .section{
+    min-height: auto;
+    padding: 30px 15px;
+    justify-content: center !important;
+  }
+
+  .text{
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .text h2{
+    font-size: 22px;
+  }
+
+  .text h3{
+    font-size: 18px;
+  }
+
+  .section:nth-child(odd),
+  .section:nth-child(even){
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .microtext{
+    display: none;
+  }
+
+}
+
 
 
