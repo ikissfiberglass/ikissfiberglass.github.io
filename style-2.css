@@ -1,3 +1,91 @@
 body {
-  background-color: #ecfbe6;
+  /*background: linear-gradient(#16bffd, #cb3066 ); */
+  /*background: linear-gradient(#1D4350,  #A43931 ); */
+  /*background: linear-gradient(#00F0FF, #FD3DB5 );  */
+  background-color: #120f18;
+
+
+
+  margin: 0;
 }
+
+.section{
+  display: flex;
+  float: right;
+  padding: 0px;
+  /*min-height: 300px; do usunięcia */
+  #background-color: #cfd9e3;
+
+
+  #outline-style: solid;
+  #outline-color: beige;
+
+  margin-bottom: 70px;
+
+  padding-left: 30px;
+
+  #filter: ;
+}
+
+.text{
+  -webkit-font-smoothing: none;
+  font-family: "ＭＳ Ｐゴシック";
+  font-weight: 600;
+
+  width: 70%;
+  #background-color: #cfd9e3;
+  /*background: linear-gradient(#2980b9, #2c3e50); stare kolory ale ok*/
+  background: linear-gradient(#678ba5, #9dbfe5);
+
+  /*line-height: 1.6;*/
+
+  #margin-bottom: 70px;
+  filter:drop-shadow(16px 16px  20px #c4519e) /*invert(75%)*/;
+  #filter: hue-rotate(180deg);
+  outline: 3px solid #cfd9e3;
+  outline-offset: -4px;
+
+  font-size: 23px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#headerBlock{
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+
+.header{
+  color: #cfd9e3;
+  font-size: 64px;
+  text-transform: lowercase;
+  font-family:  /*Orbitron*/  DotGothic16, sans-serif;
+  letter-spacing: 0.18em;
+  padding-right: 750px;
+
+}
+
+.microtext{
+  /*display: none;*/
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+
+  white-space: nowrap;
+
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: /*#7a2b8f*/ whitesmoke;
+  opacity: 0.8;
+
+
+}
+
