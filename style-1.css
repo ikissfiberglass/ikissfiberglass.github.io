@@ -1,6 +1,5 @@
 body {
   margin: 0;
-
   background-image: url("bg11.jpg");
   background-size: 100% ;
   background-repeat: no-repeat;
@@ -13,8 +12,7 @@ body {
   /*background-blend-mode: multiply;
   background-color: #000;*/
 
-
-  position: relative; /* */
+  position: relative;
 }
 
 .header{
@@ -40,15 +38,12 @@ body {
 
   animation: glitch 4s ease-in-out infinite;
 
-
-
   /*font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font-weight: 200;*/
   /*letter-spacing: 0.32em;*/
   /*text-transform: lowercase;*/
   /*font-size: 64px;*/
   /*color: #E6EEF5;*/
-
 }
 
 @keyframes glitch {
@@ -59,10 +54,7 @@ body {
   40%  { transform: translate(0.3px, -0.3px); }
   50%  { transform: translate(0); }
   100% { transform: translate(0); }
-
 }
-
-
 
 .microtext{
     position: fixed;
@@ -87,28 +79,12 @@ body {
   filter: blur(0.3px);
 }
 
-
-
 #headerBlock{
   width: 60%;
-  /*padding: 40px;*/
-  background: linear-gradient(to right, royalblue, slategray, );
-  /*text-align: left;*/
-  /*padding-right: 15%;*/
   margin-left: 60px;
   height: 160px;
-
   position: relative;
   width: fit-content;
-  /*
-  justify-content: center;
-  align-items: center;*/
-
-  /*outline-color: black;
-  outline-width: 1px;
-  outline-style: solid;*/
-
-
 }
 
 .section {
@@ -125,7 +101,6 @@ body {
   background: rgba(255, 255, 255, 0.35);
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  /*color: #fff; */
   color: #f2f2f2;
   backdrop-filter: blur(8px);
 
