@@ -1,0 +1,63 @@
+body {
+  background-color: #f3fff3;
+}
+
+
+.container{
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.todo-item{
+  border-bottom: black;
+  border-top: black;
+  border-left: transparent;
+  border-right: transparent;
+  border-style: dashed;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.delete-btn{
+  float: right;
+}
+
+.due-date{
+  padding-left: 50%;
+}
+
+#todo-form{
+
+
+}
+
+#site-search{
+  margin-top: 15px;
+
+}
+
+.todo-edit-input{
+  border: none;
+  background: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  outline: none;
+}
+
+.todo-edit-date-input{
+  border: none;
+  background: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  outline: none;
+}
